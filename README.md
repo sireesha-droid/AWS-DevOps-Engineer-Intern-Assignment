@@ -139,3 +139,21 @@ Approximately 2 hours.
 | Git & GitHub           | ✅ |
 | README                 | ✅ |
 | Bonus (Shell Script)   | ✅ |
+## Bonus Task: Docker Installation
+
+Installed Docker on the AWS EC2 Ubuntu instance and verified the installation by running the `hello-world` container.
+
+### Commands Used
+
+```bash
+sudo apt update
+sudo apt install docker.io -y
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo systemctl status docker
+sudo docker run hello-world
+```
+
+### Result
+
+Successfully installed Docker and verified it by running the `hello-world` container.
